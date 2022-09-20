@@ -88,12 +88,6 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 h1 {
     font-size: 3.052rem;
 }
@@ -133,4 +127,106 @@ h4 {
 ._container {
     max-width: var(--width);
     margin: auto;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+h3 {
+    font-size: 28px;
+    margin: 30px 0;
+}
+
+h4 {
+    font-size: 26px;
+    margin: 30px 0;
+}
+
+h5 {
+    font-size: 24px;
+    margin: 30px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    margin: 30px 0;
+}
+
+ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
+
+.mainUl li {
+    background: white;
+    color: black;
+}
+
+article {
+    margin: 30px 0;
+}
+
+q {
+    font-weight: bold;
+}
+
+.img1 {
+    -webkit-box-shadow: 17px 17px 18px 4px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 17px 17px 18px 4px rgba(34, 60, 80, 0.2);
+    box-shadow: 17px 17px 18px 4px rgba(34, 60, 80, 0.2);
+}
+
+.img2 {
+    -webkit-box-shadow: -1px -1px 18px 13px rgba(80, 34, 34, 0.2);
+    -moz-box-shadow: -1px -1px 18px 13px rgba(80, 34, 34, 0.2);
+    box-shadow: -1px -1px 18px 13px rgba(80, 34, 34, 0.2);
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+.text1 {
+    line-height: 120%;
+    font-family: "American Typewriter";
+}
+
+.text2 {
+    line-height: 100%;
+    font-weight: bold;
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+.text3 {
+    line-height: 150%;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text3 span {
+    color: green;
 }
