@@ -9,9 +9,10 @@
     <meta name="keywords" content="сайт, website">
     <title>website</title>
     <script src="assets/js/speedTest.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/activeMenuItem.js"></script>
+    >
 </head>
 <body>
 <header>
@@ -29,7 +30,17 @@
 </header>
 <main>
     <div class="_container">
-        <h1>Контакты</h1>
+        <h1>Галерея</h1>
+
+        <div class="preloader"></div>
+        <div class="error">Ошибка получения данных</div>
+        <ul class="gallery-ul"></ul>
+        <div class="pages-nav">
+            <button class="previous-button"><</button>
+            <div class="page-number">1</div>
+            <button class="next-button">></button>
+        </div>
+    </div>
     </div>
 </main>
 <footer>
@@ -42,6 +53,6 @@
     </div>
 </footer>
 
-<script src="assets/js/toDoForm.js"></script>
+<script src="assets/js/gallery.js"></script>
 </body>
 </html>
